@@ -10,7 +10,7 @@ export default class DayOne extends Component {
   render() {
     return (
       <div style={{"background":"#f1f1f1","height":"100vh","boxSizing":"border-box"}}>
-          <DayOneTitle></DayOneTitle>
+          <DayOneTitle ></DayOneTitle>
           <DayOneMain></DayOneMain>
       </div>
     )

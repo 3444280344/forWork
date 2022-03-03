@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 import '../../cssStyle/DayOne/main.css'
+// import { Space } from 'antd'
+import {
+  RightOutlined 
+} from '@ant-design/icons';
+
 
 export default class DayOneMain extends Component {
     constructor() {
@@ -10,11 +15,12 @@ export default class DayOneMain extends Component {
     }
   render() {
       var clickList=this.state.clickList.map((item,index)=>{
-        return(<div key={index}><span>{item}</span> <span>》</span></div> )
+        return(<div key={index}><span>{item}</span> <span className='iconfont'>&#xe6a2;</span></div> )
       } )
     return (
       <div className='main'>
         {clickList}
+        {/* <WomanOutlined /> */}
       </div>
     )
   }

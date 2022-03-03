@@ -1,0 +1,31 @@
+.box{
+    width: 50%;
+    color: red;
+    background-color: rgb(206, 206, 206);
+    &>div{
+        display: flex;
+        justify-content: space-between;
+        &>div{
+            text-align: center;
+            padding: 1vw 0;
+            flex: 1;
+
+        }
+    }
+    &>li{
+        text-align: center;
+        width: 100%;
+        height: 10vw;
+        line-height: 10vw;
+        background-color: rgb(255, 255, 255);
+        color: red;
+        display: none;
+    }
+}
+.hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(161, 161, 161);
+}
+.choosed{
+    display: inline-block !important;
+}
